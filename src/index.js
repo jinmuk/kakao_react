@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-window.Kakao.init('ab9cef7956c124f70fef80d8c0c327cc');
+window.Kakao.init(process.env.REACT_APP_JAVASCRIPT_API_KEY);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

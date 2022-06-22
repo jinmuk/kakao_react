@@ -26,7 +26,7 @@ function Login() {
       <div>nick : {nickname}</div>
       <div>
 
-        <img src={thumbnail} />
+        <img src={thumbnail} alt="profileImg"/>
       </div>
       <button onClick={getProfile}>info</button>
     </div>
